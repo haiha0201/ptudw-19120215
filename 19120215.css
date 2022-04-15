@@ -1,0 +1,68 @@
+/* - Định dạng chung */
+
+body {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Changa One", cursive;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 900;
+}
+
+/* - Ghi chú:
++ Sử dụng font Google 'Changa One'
++ Sử dụng icon search của fontawesome
++ Màu sắc chính của trang:
+- Hồng: #FA97C2
+- Xanh dương: #2FA0D5
+- Xanh lá: #73C926 */
+
+#navbarHeader a {
+  font-family: "Changa One", cursive;
+  padding: 0 1.5rem;
+}
+
+#navbarHeader .active {
+  color: #2fa0d5;
+}
+
+#banner {
+  background-image: url("images/bg_banner.gif");
+}
+
+#banner > div {
+  background: url("images/search_bg.png") left top no-repeat,
+    url("images/logo_bg.png") left top no-repeat;
+}
+
+.btn-primary {
+  background-color: pink;
+}
+
+@media (max-width: 576px) {
+  #banner {
+    display: none;
+  }
+  #banner-small {
+    display: block;
+  }
+}
+
+@media (min-width: 576px) {
+  #banner {
+    display: block;
+  }
+  #banner-small {
+    display: none;
+  }
+}
