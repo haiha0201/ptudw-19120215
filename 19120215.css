@@ -83,6 +83,10 @@ h1 {
   border: dotted 3px !important;
 }
 
+#date {
+  background-color: #73c926;
+}
+
 footer {
   background: url("images/bg_footer.gif");
 }
