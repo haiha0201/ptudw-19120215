@@ -38,15 +38,27 @@ h1 {
 
 #banner {
   background-image: url("images/bg_banner.gif");
+  /* background: url("images/search_bg.png") left top no-repeat,
+    url("images/logo_bg.png") left top no-repeat,
+    url("images/search_bg.png") right top no-repeat, url("images/bg_banner.gif"); */
 }
 
 #banner > div {
   background: url("images/search_bg.png") left top no-repeat,
-    url("images/logo_bg.png") left top no-repeat;
+    url("images/logo_bg.png") left top no-repeat,
+    url("images/search_bg.png") right top no-repeat;
 }
 
 .btn-primary {
-  background-color: pink;
+  background-color: #fa97c2;
+}
+
+#about-section {
+  background-color: #fa97c2;
+}
+
+#about-section a {
+  color: #2fa0d5;
 }
 
 @media (max-width: 576px) {
@@ -65,4 +77,8 @@ h1 {
   #banner-small {
     display: none;
   }
+}
+
+#newsletter-signup {
+  border: dotted 3px !important;
 }
