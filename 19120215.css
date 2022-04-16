@@ -82,3 +82,17 @@ h1 {
 #newsletter-signup {
   border: dotted 3px !important;
 }
+
+footer {
+  background: url("images/bg_footer.gif");
+}
+
+#navbar-footer a {
+  font-family: "Changa One", cursive;
+  padding: 0 1.5rem;
+  color: white;
+}
+
+#navbar-footer .active {
+  color: #fa97c2;
+}
